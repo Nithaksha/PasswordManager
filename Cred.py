@@ -11,5 +11,3 @@ class Cred:
         print("Username: "+self.app_username)
         print("Password: "+self.app_password)
         print("URL: "+self.app_url)
-
-

@@ -108,6 +108,7 @@ def new_cred(username: str, cred: Cred):
                                  'URL': cred.app_url
                                  }
         parser.write(f)
+        print(f'Cred for {cred.app_name} created successfully')
 
 
 def get_cred(username: str):
